@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Dashboard</title>
+  </head>
+  <body>
+
+    <div id="grid-container">
+
+      <div id="sidebar">
+
+        <div class="logo">
+
+          <p>Dashboard</p>
+        </div>
+
+        <div id="mainNavItems">
+
+          <button class="navItem active"> <i class="bi bi-house icon"></i> <p class="text">Home</p> 
+          </button>
+          
+          <button class="navItem"> <i class="bi bi-person-circle icon"></i> <p class="text">Profile</p>
+          </button>
+
+          <button class="navItem"> <i class="bi bi-chat icon"></i> <p class="text">Messages</p>
+          </button>
+
+          <button class="navItem"> <i class="bi bi-clock-history icon"></i> <p class="text">History</p>
+          </button>
+
+          <button class="navItem"> <i class="bi bi-list-task icon"></i> <p class="text">Tasks</p>
+          </button>
+
+          <button class="navItem"> <i class="bi bi-people icon"></i> <p class="text">Communities</p>
+          </button>
+
+        </div>
+
+
+        <div id="personalNavItems">
+
+          <button class="navItem"> <i class="bi bi-gear-wide-connected icon"></i> <p class="text">Settings</p>
+          </button>
+
+          <button class="navItem"> <i class="bi bi-info-circle icon"></i> <p class="text">Support</p>
+          </button>
+
+          <button class="navItem"> <i class="bi bi-shield icon"></i> <p class="text">Privacy</p>
+          </button>
+
+        </div>
+
+      </div>
+      <!-- END of sidebar -->
+
+      <div id="header">
+
+        <div class="searchBar">
+
+          <i class="bi bi-search icon"></i>
+          <input type="text" name="" id="" />
+        </div>
+
+        <div class="wrapper">
+          <i class="bi bi-bell icon"></i>
+          
+          <div class="profile">
+            
+            <img src="assets/images/bear.png" alt="">
+            <p id="userName">Nikolas Ntzantidis</p>
+          </div>
+
+        </div>
+
+        <div id="welcome">
+
+          <img src="assets/images/bear.png" alt="">
+          <div class="text"> Hi there, <br /> <span class="highlighted">Nikolas Ntzantidis ( @Nikolas )</span> </div>
+        </div>
+
+        <div id="actions">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+    
+      </div>
+      <!-- END of header -->
+
+      <!-- MAIN Page -->
+      <div id="mainContent">
+
+        <div id="projects">
+          <h1>Your Projects</h1>
+
+          <div class="projectGrid">
+
+            <div class="projectCard">
+              <div class="content">
+              
+                <p class="headline">Super Cool Project</p>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Necessitatibus veritatis obcaecati itaque voluptatem? Sit quia
+                </p>
+              
+                <div class="icons"> <i class="bi bi-star"></i> <i class="bi bi-eye"></i> <i class="bi bi-share"></i> <!-- ICONS of the Projects-->
+                </div>
+              
+              </div>
+            </div>
+            <div class="projectCard">
+              <div class="content">
+
+                <p class="headline">Less Cool Project</p>
+                <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis obcaecati itaque voluptatem? Sit quia </p>
+
+                <div class="icons">  <i class="bi bi-star"></i>  <i class="bi bi-eye"></i>  <i class="bi bi-share"></i> </div> <!-- ICONS of the Projects-->
+                
+              </div>
+            </div>
+
+            <div class="projectCard">
+              <div class="content">
+
+                <p class="headline">Impossible App</p>
+                <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis obcaecati itaque voluptatem? Sit quia </p>
+
+                <div class="icons">  <i class="bi bi-star"></i>  <i class="bi bi-eye"></i>  <i class="bi bi-share"></i> </div> <!-- ICONS of the Projects-->
+                
+              </div>
+            </div>
+
+            <div class="projectCard">
+              <div class="content">
+
+                <p class="headline">Easy Peasy App</p>
+                <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis obcaecati itaque voluptatem? Sit quia </p>
+
+                <div class="icons">  <i class="bi bi-star"></i>  <i class="bi bi-eye"></i>  <i class="bi bi-share"></i>  </div> <!-- ICONS of the Projects-->
+
+              </div>
+            </div>
+
+            <div class="projectCard">
+              <div class="content">
+
+                <p class="headline">Ad Blocker</p>
+                <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis obcaecati itaque voluptatem? Sit quia </p>
+
+                <div class="icons">  <i class="bi bi-star"></i>  <i class="bi bi-eye"></i>  <i class="bi bi-share"></i> </div> <!-- ICONS of the Projects-->
+
+              </div>
+            </div>
+
+            <div class="projectCard">
+              <div class="content">
+
+                <p class="headline">Money Maker</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis obcaecati itaque voluptatem? Sit quia </p>
+
+                <div class="icons"> <i class="bi bi-star"></i> <i class="bi bi-eye"></i> <i class="bi bi-share"></i> </div> <!-- ICONS of the Projects-->
+
+              </div>
+            </div>
+
+
+          </div>
+          <!-- END OF projectGrid -->
+
+        </div>
+        <!-- END of projects div -->
+
+        <div id="announcements">
+
+          <h1>Announcements</h1>
+          <div class="grid">
+
+            <div class="annuncementItem">
+
+              <p class="headline">Site Maintenance</p>
+              <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut magnam ipsum necessitatibus distinctio debitis quo. </p>
+            </div>
+
+            <div class="annuncementItem">
+
+              <p class="headline">Community Share Day</p>
+              <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut magnam ipsum necessitatibus distinctio debitis quo. </p>
+            </div>
+
+            <div class="annuncementItem">
+
+              <p class="headline">Updated Privacy Policy</p>
+              <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut magnam ipsum necessitatibus distinctio debitis quo. </p>
+            </div>
+
+          </div>
+          <!-- END OF grid -->
+        </div>
+        <!-- END OF announcements -->
+
+
+        <div id="trending">
+
+          <h1>Trending</h1>
+
+          <div class="grid">
+
+            <div class="profileCard">
+              <img src="assets/images/dog.png" alt="">
+
+              <div class="info">
+
+                <p class="userName">@Cena</p>
+                <p class="text"> World Peace Builder </p>
+
+              </div>
+            </div>
+
+            <div class="profileCard">
+              <img src="assets/images/rabbit.png" alt="">
+              
+              <div class="info">
+
+                <p class="userName">@bugs_bunny</p>
+                <p class="text">Super Cool Project</p>
+
+              </div>
+            </div>
+
+            <div class="profileCard">
+              <img src="assets/images/spiderman.png" alt="">
+
+              <div class="info">
+
+                <p class="userName">@Spider-Man</p>
+                <p class="text">Life Changing App</p>
+
+              </div>
+            </div>
+
+            <div class="profileCard">
+              <img src="assets/images/superhero.png" alt="">
+
+              <div class="info">
+
+                <p class="userName">@Iron_man</p>
+                <p class="text">No Traffic Maker</p>
+              </div>
+
+            </div>
+          
+          </div>
+          <!-- END OF grid -->
+
+        </div>
+
+      </div>
+      <!-- END main  -->
+
+    </div>
+    <!-- END -->
+
+  </body>
+  <!-- END of Body -->
+
+</html>
